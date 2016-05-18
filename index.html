@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+
+<head>
+  <title>Local Weather App</title>
+  <meta name='description' content='It&apos;s a local weather app.' />
+  <meta charset='UTF-8' />
+  <meta name='author' content='Samuel Cupidon' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <link rel=stylesheet href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='./css/main.css' />
+</head>
+
+<body>
+  <div class='container-fluid'>
+    <div class='row-fluid'>
+      <div class='col-sm-offset-3 col-sm-6 transbox'><h1 class='text-center'>Just the Weather</h1>
+      </div><!--transbox-->
+      <div class='col-sm-offset-3 col-sm-6 transbox hidden'>
+        <h2 class='text-center'><span id='city'></span>, <span id='country'></span></h2><h4 class='text-center'>Temperature: <span id='degrees'></span> &deg;<span id='unit'>C</span></h4><h4 class='text-center'>Weather description: <span id='description'></span>, <span id='description2'></span> <span id='icon'></span></h4>
+      </div><!--transbox-->
+    </div><!--row-fluid-->
+  </div><!--container-fluid-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='./js/main.js'></script>
+</body>
+
+</html>
